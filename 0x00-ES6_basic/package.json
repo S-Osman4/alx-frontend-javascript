@@ -10,9 +10,13 @@
     "babel-jest": "^29.3.1",
     "eslint": "^8.30.0",
     "jest": "^29.3.1"
-  },
+{
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "./node_modules/.bin/eslint",
+    "check-lint": "lint [0-9]*.js",
+    "dev": "npx babel-node",
+    "test": "jest",
+    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
   },
   "keywords": [],
   "author": "Shamso Osman",
