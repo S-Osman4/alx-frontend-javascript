@@ -1,0 +1,28 @@
+{
+  "name": "0x00-es6_basic",
+  "version": "1.0.0",
+  "description": "0x00-ES6_basic",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.20.7",
+    "@babel/preset-env": "^7.20.2",
+    "babel-jest": "^29.3.1",
+    "eslint": "^8.30.0",
+    "jest": "^29.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Shamso Osman",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/S-Osman4/alx-frontend-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/S-Osman4/alx-frontend-javascript/issues"
+  },
+  "homepage": "https://github.com/S-Osman4/alx-frontend-javascript#readme"
+}
