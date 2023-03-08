@@ -1,8 +1,8 @@
 var student1 = {
-    firstName: "Zeliq",
-    lastName: "Shannon",
-    age: 40,
-    location: "Nakuru"
+    firstName: "Shamso",
+    lastName: "Osman",
+    age: 23,
+    location: "Nairobi"
 };
 var student2 = {
     firstName: "John",
