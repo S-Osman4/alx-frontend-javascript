@@ -19,7 +19,7 @@
     "typescript": "^4.9.4"
   },
   "scripts": {
-    "lint": "eslint",
+    "lint": "node_modules/.bin/eslint",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
